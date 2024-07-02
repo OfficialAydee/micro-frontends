@@ -1,7 +1,7 @@
 # micro-frontends
 
 Create workspace:
-$ npx create-nx-workspace matchmaker
+$ npx create-nx-workspace micro-frontends
 
 Generate host:
 $ npx nx generate @nx/angular:host --name=host --ssr=true --directory=apps/host --prefix=matchmaker --dynamic=true --projectNameAndRootFormat=as-provided --standalone=false --style=scss
