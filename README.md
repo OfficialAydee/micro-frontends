@@ -48,6 +48,12 @@ DE OPTIES HEBBEN DE VOLGENDE BETEKENISSEN:
 --NAME=[NAAM VAN COMPONENT]: VERVANG DIT MET DE GEWENSTE NAAM VOOR DE COMPONENT.
 --DIRECTORY=APPS/[NAAM VAN REMOTE PROJECT]/SRC/APP/REMOTE-ENTRY/[GEGEVEN NAAM VAN COMPONENT]: PLAATST DE COMPONENT IN DE OPGEGEVEN DIRECTORY.
 
+## Draaien van code
+
+$ cd micro-frontends
+
+$ npx nx serve host --devRemotes=mf1,mf2 (mf1 en mf2 zijn de namen van remote)
+
 ## Opzet gedeelde library
 
 Dit commando genereert een gedeelde bibliotheek die wordt gebruikt door meerdere projecten binnen de workspace. Het creëert een aparte bibliotheek met de opgegeven naam.
